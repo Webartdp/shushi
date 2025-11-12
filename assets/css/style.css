@@ -421,7 +421,7 @@ header {
     transform: scale(0.75);
 }
 
-.slick-active {
+.sale-item.slick-active {
     opacity: 1;
     transform: scale(0.89);
     transition: transform .4s ease, opacity .4s ease;
