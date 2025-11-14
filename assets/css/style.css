@@ -495,7 +495,7 @@ header {
 
 footer {
     background: #606687;
-    padding: 40px 0px;
+    padding: 40px 0px 15px 0px;
 }
 .footer-logo-section{
 display: flex;
@@ -508,4 +508,247 @@ color: white;
 font-size: 14px;
 font-weight: 300;
 text-align: justify;
+}
+.footer-intro-text-1{
+    margin-top: 30px;
+    color: white;
+font-size: 20px;
+font-weight: 600;
+}
+.footer-links-section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer-links-section p{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 35px;
+}
+.footer-link{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    display: block;
+    margin-bottom: 8px;
+}
+.footer-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-contact-text p{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 35px;
+}
+.footer-contact-text ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-contact-text ul li{
+color: #fff;
+margin-bottom: 10px;
+}
+.footer-contact-text ul li a{
+color: #fff;
+text-decoration: none;
+}
+.footer-contact-text ul li img{
+    margin-right: 10px;
+}
+.footer-link-2{
+    color: #80D434;
+   text-decoration: dotted underline #80D434;
+    font-size: 16px;
+    font-weight: 300;
+}
+.footer-contact-icons{
+    margin-top: 15px;
+}
+.footer-contact-icons a{
+    margin-right: 15px;
+}
+.footer-contact-icons a img{
+    width: 30px;
+    height: 30px;
+}
+.copy{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 15px;
+color: #9A9A9A;
+font-size: 13px;
+}
+.copy-text a, .webart a{
+    font-size: 13px;
+    font-weight: 300;
+    text-decoration: none; 
+    color: #9A9A9A; 
+}
+.webart a{
+font-weight: 900;
+color: #fff;
+}
+.crumb{
+margin-top: 80px;
+margin-bottom: 35px;
+}
+.breadcrumb-item a{
+    text-decoration: none;
+    color: #606687;
+    font-size: 14px;
+    font-weight: 400;
+}
+.breadcrumb-item{
+    display: flex;
+align-items: center;
+height: 30px;
+}
+.breadcrumb-item.active{
+    font-size: 14px;
+    font-weight: 400;
+    color: #FC7158;
+}
+.breadcrumb{
+display: flex;
+align-items: center;
+}
+.product-detals{
+background: #fff;
+border-radius: 20px;
+padding: 30px 20px;
+margin-bottom: 80px;
+box-shadow: 0px 0px 10px #828282;
+}
+.product-image-slider img{
+    border-radius: 20px;
+}
+.slick-dots {
+    position: absolute;
+    bottom: -30px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 30px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    content: '';
+    text-align: center;
+    border-radius: 100%;
+    opacity: 1;
+ background: #80d434;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+.slick-dots li.slick-active button:before {
+    font-family: 'slick';
+    font-size: 30px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    content: '';
+    text-align: center;
+    border-radius: 20px;
+    opacity: 1;
+ background: #FC7158;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+.product-info{
+    padding-left: 15px;
+}
+.product-title{
+color: #80E029;
+font-size: 32px;
+font-weight: 700;
+position: relative;
+}
+.product-title::before{
+    content: "";
+    position: absolute;
+    background: url(../img/decor-title.svg);
+    width: 37px;
+    height: 40px;
+    top: -18px;
+    left: -31px;
+}
+.product-description{
+    text-align: justify;
+    color: #606687;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.product-price {
+    font-size: 36px;
+    color: #80E029;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.product-price span{
+font-size: 16px;
+color: #80E029;
+font-weight: 500;
+}
+.quantity-input {
+    width: 80px;
+    height: 55px;
+    border: 2px solid #FC7158;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 15px;
+}
+.add-to-cart-btn{
+    background: #FC7158;
+    color: white;
+    border-radius: 15px;
+    border: 2px solid #EA4335;
+    padding: 14px 23px;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: all 0.5s;
+    margin-left: 15px;
+}
+.add-to-cart-btn img{
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+.product-quantity-section{
+    display: flex;
+    align-items: center;
+    /* margin-top: 20px; */
 }
