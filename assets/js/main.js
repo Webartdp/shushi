@@ -114,6 +114,33 @@ $('.product-image-slider').slick({
   arrows: false,
   autoplaySpeed: 2000,
 });
+$('.slider-menu').slick({
+  centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 6,
+  prevArrow: '<button type="button" class="custom-prev-menu"><img src="assets/img/prev.svg" alt=""></button>',
+  nextArrow: '<button type="button" class="custom-next-menu"><img src="assets/img/next.svg" alt=""></button>',
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
 
 
 });
