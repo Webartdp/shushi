@@ -1054,20 +1054,25 @@ background-repeat: no-repeat;
 }
 .slider-menu-item{
     background: white;
-    border-radius: 20px;
-    border: 2px solid #E0E0E0;
-    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid #E0E0E0;
+    padding: 9px;
     display: flex;
     flex-direction: row;
-    margin: 0px 15px;
+    align-items: center;
+    margin: 0px 10px;
 
+}
+.slider-menu-item-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
 }
 .slider-menu-item-title{
     margin: 0px 20px;
     color: #8d8d8d;
     font-weight: 400;
-    margin-bottom: 10px;
-    font-size: 14px;
+    font-size: 13px;
     text-decoration: none;
     align-items: center;
     display: flex;
@@ -1082,6 +1087,7 @@ background-repeat: no-repeat;
     text-transform: uppercase;
     color: #80D434;
 }
+
 .setion-title-menu::before {
     content: "";
     position: absolute;
